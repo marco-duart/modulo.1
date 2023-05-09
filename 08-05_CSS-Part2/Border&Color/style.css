@@ -1,0 +1,12 @@
+p {
+    width: 150px;
+    height: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    border-top: 2px blue dashed;
+    border-left: 2px yellow dotted;
+    border-bottom: 2px red double;
+    margin-top: 10px;
+    margin-left: 10px;
+}

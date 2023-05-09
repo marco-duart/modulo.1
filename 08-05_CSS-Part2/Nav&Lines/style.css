@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+nav {
+    color: orange;
+    padding: 5px 15px 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    width: 125px;
+    border-right: 5px orange solid;
+    border-left: 2px grey solid;
+    border-top: 2px grey solid;
+}
