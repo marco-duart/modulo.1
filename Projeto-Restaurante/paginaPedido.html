@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pedido</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body style="text-align: center;">
+        <div>
+            <a class="voltar" href="cardapio.html">Voltar</a>
+        </div>
+        <div>
+            <img src="Imagens/logo.png" alt="Logo" width="50" height="50"/>
+        </div>
+        <h1>Endereço</h1>
+        <div>
+            <form>
+                <div>
+                    <label style="display: block;" for="CEP">CEP:</label>
+                    <input id="CEP" type="text">
+                </div>
+                <div>
+                    <label style="display: block;" for="Rua">Rua:</label>
+                    <input id="Rua" type="text">
+                </div>
+                <div>
+                    <label style="display: block;" for="Numero">Número:</label>
+                    <input id="Numero" type="text">
+                </div>
+                <div>
+                    <label style="display: block;" for="Bairro">Bairro:</label>
+                    <input id="Bairro" type="text">
+                </div>
+            </form>
+        </div>
+        <hr>
+        <h1>Prato</h1>
+        <div>
+            <select>
+                <option value="" selected hidden>Escolha</option>
+                <option value="" >X-burguer</option>
+                <option value="" >X-tudo</option>
+            </select>
+        </div>
+        <div>
+            <form>
+                <label style="display: block;" for="Quantidade1">Quantidade</label>
+                <input id="Quantidade1" type="number" min="1" max="999">
+            </form>
+         </div>
+         <h1>Bebida</h1>
+         <div>
+            <select>
+                <option value="" selected hidden>Escolha</option>
+                <option value="" >Suco de Laranja</option>
+                <option value="" >Refrigerante</option>
+            </select>
+        </div>
+        <div>
+            <form>
+                <label style="display: block;" for="Quantidade2">Quantidade</label>
+                <input id="Quantidade2" type="number" min="1" max="999">
+            </form>
+         </div>
+        <a href="efetuarPagamento.html"><h1 class="pad">Efetuar Pagamento</h1></a>
+    </body>
+</html>

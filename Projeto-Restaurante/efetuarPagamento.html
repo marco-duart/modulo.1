@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pagamento</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body style="text-align: center;">
+        <div>
+            <a class="voltar" href="paginaPedido.html">Voltar</a>
+        </div>
+        <div>
+            <img src="Imagens/logo.png" alt="Logo" width="50" height="50"/>
+        </div>
+        <h1>Valor: R$ 78,00</h1>
+        <div class="padding">
+            <label style="display: block;" for="forma">Forma de pagmento</label>
+            <select id="forma">
+                <option value="" selected hidden>Escolha</option>
+                <option value="" >Crédito</option>
+                <option value="" >Débito</option>
+                <option value="" >Pix</option>
+                <option value="" >Dinheiro</option>
+            </select>
+        </div>
+        <div class="padding">
+            <form>
+                <label style="display: block;" for="Cartao">Número do cartão:</label>
+                <input id="Cartao" type="text">
+            </form>
+        </div>
+        <div class="padding">
+            <form>
+                <label style="display: block;" for="CVV">CVV:</label>
+                <input id="CVV" type="text">
+            </form>
+        </div>
+        <div class="padding">
+            <form>
+                <label style="display: block;" for="Vencimento">Vencimento:</label>
+                <input id="Vencimento" type="text">
+            </form>
+        </div>
+        <a href="pedidoFinalizado.html"><h1 class="pad">Finalizar Pedido</h1></a>
+    </body>
+</html>

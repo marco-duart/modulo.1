@@ -1,0 +1,52 @@
+.titulo{
+    color: #a10303;
+    font-size: 32px;
+}
+*{
+    color: #a10303;
+}
+body{
+    background-color: #ffffc8;
+    font-family: 'Poppins', sans-serif;
+}
+.inicial{
+    font-size: 28px;
+}
+.pad{
+    padding: 30px;
+}
+.padding{
+    padding-top: 20px;
+}
+.tipoMenu{
+    font-size: 32px;
+    font-weight: bold;
+}
+.tituloMenu{
+    font-size: 28px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.voltar{
+    color: rgb(104, 104, 104);
+}
+.Check{
+    display: block;
+}
+.desc{
+    font-style: italic;
+}
+.link{
+    font-size: 28px;
+    font-weight: bold;
+}
+.preco{
+    font-size: 24px;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inlinebox{
+    display: inline-block;
+}

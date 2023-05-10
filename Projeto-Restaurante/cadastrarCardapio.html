@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Cadastrar Cardapio</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1 class="titulo">Cadastrar Cardápio</h1>
+        <div class="pad cont">
+            <form>
+                <label class="Check" for="Nome">Nome:</label>
+                <input class="Check" name="Nome" type="text">
+                <label class="Check" for="Descricao">Descrição:</label>
+                <textarea class="Check" name="Descricao"></textarea>
+                <label class="Check" for="Ativo">Ativo?</label>
+                <div>
+                    <input name="Ativo" type="radio">
+                    <label for="Ativo">Sim</label>
+                </div>
+                <div>
+                    <input name="Inativo" type="radio">
+                    <label for="Inativo">Sim</label>
+                </div>
+                <hr class="Margem">
+            </form>
+                <h4>Pratos</h4>
+            <form class="Margem">
+                <label class="Check" for="Prato1">Prato 1:</label>
+                <select name="Prato1">
+                    <option value="" disabled selected>Escolha...</option>
+                    <option value="Xburguer">X-burguer</option>
+                    <option value="Xtudo">X-tudo</option>
+                </select>
+                <label class="Check" for="Valor1">Valor:</label>
+                <input class="Check" name="Valor1" type="text">
+            </form>
+            <form class="Margem">
+                <label class="Check" for="Prato2">Prato 2:</label>
+                <select name="Prato2">
+                    <option value="" disabled selected>Escolha...</option>
+                    <option value="Xburguer">X-burguer</option>
+                    <option value="Xtudo">X-tudo</option>
+                </select>
+                <label class="Check" for="Valor2">Valor:</label>
+                <input class="Check" name="Valor2" type="text">
+                <hr class="Margem">
+            </form>
+            <h4>Bebidas</h4>
+            <form class="Margem">
+                <label class="Check" for="Bebida1">Bebida 1:</label>
+                <select name="Bebida1">
+                    <option value="" disabled selected>Escolha...</option>
+                    <option value="SucodeLaranja">Suco de Laranja</option>
+                    <option value="Refrigerante">Refrigerante</option>
+                </select>
+                <label class="Check" for="Valor3">Valor:</label>
+                <input class="Check" name="Valor3" type="text">
+            </form>
+            <form class="Margem">
+                <label class="Check" for="Bebida1">Bebida 2:</label>
+                <select name="Bebida2">
+                    <option value="" disabled selected>Escolha...</option>
+                    <option value="SucodeLaranja">Suco de Laranja</option>
+                    <option value="Refrigerante">Refrigerante</option>
+                </select>
+                <label class="Check" for="Valor4">Valor:</label>
+                <input class="Check" name="Valor4" type="text">
+                <input class="Check" style="margin-top: 30px;" name="Enviar" type="submit"></input>
+            </form>
+        </div>
+        <div>
+            <a class="voltar" href="areaProprietario.html">Voltar</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Cadastrar Item</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1 class="titulo">Cadastrar Item</h1>
+        <div class="pad cont">
+            <form>
+                <label class="Check" for="Nome">Nome:</label>
+                <input class="Check" name="Nome" type="text">
+                <label class="Check" for="Tipo">Tipo:</label>
+                <select name="Tipo">
+                    <option value="" disabled selected>Escolha...</option>
+                    <option value="Prato">Prato</option>
+                    <option value="Bebida">Bebida</option>
+                </select>
+                <label class="Check" for="Descricao">Descrição:</label>
+                <textarea class="Check" name="Descricao"></textarea>
+                <label class="Check" for="Foto">Foto:</label>
+                <input class="Check" name="Foto" type="file"></input>
+                <input class="Check" style="margin-top: 30px;" name="Enviar" type="submit"></input>
+            </form>
+        </div>
+        <div>
+            <a class="voltar" href="areaProprietario.html">Voltar</a>
+        </div>
+    </body>
+</html>

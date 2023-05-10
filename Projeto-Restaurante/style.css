@@ -1,0 +1,40 @@
+.titulo{
+    color: #a10303;
+    font-size: 32px;
+}
+a{
+    color: #a10303;
+}
+body{
+    background-color: rgb(189, 189, 189);
+    font-family: 'Poppins', sans-serif;
+}
+.area{
+    display:inline;
+    color: black;
+}
+.pad{
+    padding: 20px;
+}
+.menu{
+    font-size: 24px;
+}
+.cont{
+    font-size: 16px;
+}
+.voltar{
+    color: rgb(104, 104, 104);
+}
+.Check{
+    display: block;
+}
+.Margem{
+    margin-top: 30px;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inlinebox{
+    display: inline-block;
+}
