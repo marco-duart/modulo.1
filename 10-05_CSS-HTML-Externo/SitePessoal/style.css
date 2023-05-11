@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: aqua;
+}
+
+li {
+    padding-top: 10px;
+}
+
+h1, nav, p {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
