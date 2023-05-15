@@ -1,0 +1,70 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.begin{
+    background-color: #0055aa;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+.text{
+    text-align: justify;
+    padding: 2rem;
+}
+.secondMenu{
+    background-color: #0055aa;
+    text-align: center;
+}
+.jobs{
+    display: inline-block;
+    color: white;
+    padding: 2rem;
+}
+.ending{
+    background-color: #0055aa;
+    text-align: center;
+    padding: 2rem;
+}
+.final{
+    color: white;
+    padding: 0.8rem;
+}
+.image{
+    text-align: center;
+    padding: 2rem;
+}
+.img{
+    display: inline-block;
+    padding: 2rem;
+    position: relative;
+}
+
+.background{
+    padding-top: 50px;
+}
+.whats{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.tag {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: #0055aa;
+    border-radius: 6px;
+    padding: 6px;
+}
