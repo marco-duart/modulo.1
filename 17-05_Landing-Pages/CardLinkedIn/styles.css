@@ -1,0 +1,78 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    background-color: #dedede;
+    font-family: 'Poppins';
+}
+#card{
+    position: relative;
+    width: 330px;
+    height: 465px;
+    background: white;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 20px;
+    margin: 100px auto;
+    text-align: center;
+}
+#img{
+    position: absolute;
+    top: -60px;
+    width: 100%;
+}
+#img img{
+    border: 1px solid #dedede;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#title{
+    padding-bottom: 30px;
+    font-size: 24px;
+    line-height: 19px;
+    color: #61616A;
+    font-weight: 700;
+}
+#content{
+    padding: 90px 10px 15px 10px;
+}
+#description{
+    font-size: 18px;
+    line-height: 19px;
+    color: #54545a;
+}
+#list {
+    margin: 25px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #54545a;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#list div{
+    padding: 15px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0a66c2;
+    min-width: 50%;
+}
+a {
+    text-decoration: none;
+}
+#button {
+    letter-spacing: 0.5px;
+    height: 40px;
+    background-color: #0a66c2;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
