@@ -1,0 +1,2 @@
+/* Faça um programa de computador para escrever seus dados pessoais */
+console.log("Nome: Marco Aurélio Duarte Bezerra\n","Idade: 29\n","Naturalidade: Aparecida de Goiânia\n","Estado Civil: Solteiro\n","Cidade: Senador Canedo\n","Estado: Goiás")
