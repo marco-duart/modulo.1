@@ -6,4 +6,4 @@ console.log("Vamos calcular a divisão de dois números!\nDigite o primeiro núm
 numero1 = io.readFloat()
 console.log("Agora digite o segundo número:")
 numero2 = io.readFloat()
-console.log("A divisão entre os números informados é ",numero1/numero2)
+console.log("O resto da divisão entre os números informados é ",numero1%numero2)
