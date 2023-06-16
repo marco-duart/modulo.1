@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Cadastro</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div>
+        <form id="form" class="form">
+          <section>
+            <h1 class="title">Efetue o seu cadastro</h1>
+          </section>
+          <section class="block">
+            <label for="name">Nome completo</label>
+            <input id="name" name="name" class="item" />
+          </section>
+          <section class="block">
+            <label for="cpf">CPF</label>
+            <input id="cpf" name="cpf" class="item" />
+          </section>
+          <section class="block">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" class="item" />
+          </section>
+          <section class="block">
+            <label for="password">Senha</label>
+            <input id="password" name="password" class="item" />
+          </section>
+          <button type="submit" class="submit">Finalizar</button>
+        </form>
+        <div id="modal" class="modal">
+          <div class="contentModal">
+            <div class="closeX" onclick="closeModal()">x</div>
+            <h1>Seja bem-vindo(a), <span id="showName" class="grey"></span>!</h1>
+            <p>Um e-mail de confirmação foi enviado para <span id="showEmail" class="grey"></span></p>
+            <button onclick="closeModal()" class="submit">Ok</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
