@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  width: 30%;
+  height: 600px;
+  margin: 30px 35%;
+  box-shadow: 0px 1px 6px 0px #00000040;
+}
+
+.title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.block {
+  width: 70%;
+  display: grid;
+  margin: 15px 15%;
+}
+
+.block input {
+  border-radius: 10px;
+  height: 35px;
+  font-size: 12px;
+}
+
+.block select {
+  border-radius: 10px;
+  height: 35px;
+  font-size: 12px;
+}
+
+.block label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.submit {
+  /* border: none; */
+  background-color: #00a7e9;
+  color: white;
+  font-size: 12px;
+  width: 70%;
+  height: 37px;
+  margin: 15px 15%;
+  border-radius: 20px;
+}
+
+.default {
+  border: 1px solid rgb(118, 118, 118);
+}
+
+.valid {
+  border: 1px solid green;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  color: red;
+}
+
+.container {
+  width: 30%;
+  margin: 30px 35%;
+  box-shadow: 0px 1px 6px 0px #00000040;
+  padding: 20px;
+}
+
+.container h2 {
+  color: #00a7e9;
+  text-align: center;
+}
+
+.container h5 {
+  text-align: center;
+  color: grey;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.container span {
+  font-weight: 400;
+}
+

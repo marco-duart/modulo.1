@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Cadastro</title>
+    <link href='style.css' rel='stylesheet' />
+    <script src='app.js' defer></script>
+  </head>
+  <body>
+    <main>
+      <form id='form' class='card'>
+        <section>
+          <h1 class='title'>Cadastro de Produto</h1>
+        </section>
+        <section class='block'>
+          <label for='code'>Código</label>
+          <input id='code' name='code' class='default' type='text' />
+          <small id='codeErro' class='hide'>*Digite o código do produto!</small>
+        </section>
+        <section class='block'>
+          <label for='name'>Nome</label>
+          <input id='name' name='name' class='default' type='text' />
+          <small id='nameErro' class='hide'>*Digite o nome do produto!</small>
+        </section>
+        <section class='block'>
+          <label for='category'>Categoria</label>
+          <select id='category' class='default' name='category'>
+            <option value='Vazio' disabled selected></option>
+            <option value='Alimento'>Alimento</option>
+            <option value='Limpeza'>Limpeza </option>
+            <option value='Higiene'>Higiene</option>
+          </select>
+          <small id='categoryErro' class='hide'>*Selecione a categoria do produto!</small>
+        </section>
+        <section class='block'>
+          <label for='price'>Preço</label>
+          <input id='price' name='price' class='default' type='text' />
+          <small id='priceErro' class='hide'>*Digite o preço do produto!</small>
+        </section>
+        <section class='block'>
+          <label for='quantity'>Quantidade</label>
+          <input id='quantity' name='quantity' class='default' type='text' />
+          <small id='quantityErro' class='hide'>*Digite a quantidade do produto!</small>
+        </section>
+        <button type='submit' class='submit'>CADASTRAR</button>
+      </form>
+      <div id='container' class="container"></div>
+    </main>
+  </body>
+</html>
