@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
+/* Resetando os valores de margin, padding e border*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+body {
+    font-family: 'Poppins';
+}
+
+.header__top {
+    background-color: #6950A1;
+    height: 92px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 38px;
+    width: auto;
+}
+
+.header__title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header__btn {
+    background-color: #FBB04D;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    Width: 187px;
+    Height: 52px;
+    border-radius: 10px;
+}
+
+/* MODAL */
+
+/* CARDS */
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.main__card {
+    width: 999px;
+    height: 284px;
+    border: 1px solid #6950A1;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.card__img {
+    width: 45%;
+    display: grid;
+    place-items: center;
+}
+
+.card__img img {
+    width: 401px;
+    height: 223px;
+    object-fit: cover;
+}
+
+.card__content {
+    width: 55%;
+    padding-top: 17px;
+}
+
+.card__title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6950A1;
+}
+
+.card__text {
+    font-size: 14px;
+}
+
+.card__btn {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.card__btn button {
+    width: 58px;
+    height: 26px;
+    font-size: 14px;
+    color: white;
+    background-color: #6950A1;
+    border-radius: 5px;
+}
