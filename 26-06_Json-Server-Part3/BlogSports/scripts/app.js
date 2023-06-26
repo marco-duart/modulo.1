@@ -7,7 +7,7 @@ const inputNoticias = async (noticias) => {
             <div class="card__content">
                 <div class="card__title">${noticia.title}</div>
                 <div class="card__text">${noticia.text}</div>
-                <div class="card__btn"><button>Editar</button></div>
+                <div class="card__btn"><button onclick="editNoticia(${noticia.id})">Editar</button></div>
             </div>
         </div>
         `
@@ -18,6 +18,10 @@ const getNoticias = async () => {
     const response = await fetch('http://localhost:3000/noticias')
     const noticias = await response.json()
     inputNoticias(noticias)
+}
+
+const editNoticia = (id) => {
+    window.location = `html_edit.html?id=${id}`
 }
 
 getNoticias()

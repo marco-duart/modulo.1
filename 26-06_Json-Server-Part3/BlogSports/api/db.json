@@ -1,11 +1,11 @@
 {
   "noticias": [
     {
-      "id": 1,
       "title": "Goiás se aproxima de acerto com novo camisa 9 para sequência da temporada 2023.",
-      "autor": "Autor da Notícia",
+      "autor": "Maycon Denebrio",
       "image": "https://esmeraldino.com/wp-content/uploads/2022/06/Harlei-1-800x445.jpeg",
-      "text": "O clube acertou a chegada de um bom nome para treinador, fechando com Armando Evangelista, eleito melhor técnico de Portugal na temporada 22/23. Porém, a diretoria sabe que apenas o treinador não será suficiente para uma reação do time, que nesse momento está na zona de rebaixamento da Série A."
+      "text": "O clube acertou a chegada de um bom nome para treinador, fechando com Armando Evangelista, eleito melhor técnico de Portugal na temporada 22/23. Porém, a diretoria sabe que apenas o treinador não será suficiente para uma reação do time, que nesse momento está na zona de rebaixamento da Série A.",
+      "id": 1
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
       "text": "O Goiás Esporte Clube segue trabalhando no mercado da bola, buscando reforços para sequência da temporada 2023. Porém, assim como o Esmeraldino, os demais clubes brasileiros também querem se reforçar. Nesse sentido, o Verdão tem recebido ofertas de outras equipes por seus jogadores."
     },
     {
-      "title": "Goiás registra Armando Evangelista mas treinador não poderá comandar o time diante do Vasco; entenda o caso",
+      "title": "Goiás registra Armando Evangelista mas treinador não poderá comandar o time diante do Vasco",
       "autor": "Marco",
       "image": "https://esmeraldino.com/wp-content/uploads/2023/06/Evangelista1-800x445.jpeg.webp",
       "text": "O Goiás Esporte Clube entra em campo logo mais, às 20h, quando enfrenta o Vasco da Gama, em partida válida pela 11ª rodada do Campeonato Brasileiro. A principal novidade no Verdão para esse jogo era a aguardada estreia do treinador Armando Evangelista, eleito melhor técnico de Portugal na temporada 22/23.",
