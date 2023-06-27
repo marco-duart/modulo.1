@@ -1,29 +1,19 @@
-const form = document.getElementById('form')
-let noticiaID = null
+const formEdit = document.getElementById('form_edit')
+let noticiaID
 
-// Recupero o ID
-const getIdUrl = () => {
-    const paramString = window.location.search
-    // URLSearchParams define metodos para buscar parametros da URL
-    const pararms = new URLSearchParams(paramString)
-    // params.get('o_nome_do_campo_que_esta_na_url)'
-    // ou seja, ao utulizar o .get eu posso recuperar um determinado campo
-    noticiaID = pararms.get('id')
-}
-
-const searchNoticia = async () => {
+const searchNoticia = async (noticiaID) => {
     const response = await fetch(`http://localhost:3000/noticias/${noticiaID}`)
     const noticia = await response.json()
     return noticia
 }
 
-form.addEventListener('submit', (element) => {
+formEdit.addEventListener('submit', (element) => {
     element.preventDefault()
 
-    const title = form.elements['title'].value
-    const autor = form.elements['autor'].value
-    const image = form.elements['image'].value
-    const text = form.elements['text'].value
+    const title = formEdit.elements['title'].value
+    const autor = formEdit.elements['autor'].value
+    const image = formEdit.elements['image'].value
+    const text = formEdit.elements['text'].value
 
     const noticia = {
         title,
@@ -39,8 +29,9 @@ const loadForm = async (noticia) => {
     document.getElementById('autor').value = noticia.autor
     document.getElementById('image').value = noticia.image
     document.getElementById('text').value = noticia.text
-}
 
+    document.getElementById('modal').style.display = 'grid'
+}
 
 const editNoticia = async (noticia) => {
     // O endpoint foi alterado para receber o id que será editado
@@ -54,15 +45,12 @@ const editNoticia = async (noticia) => {
         body: JSON.stringify(noticia)
     })
     // Redireciono o usuario para a tela de listagem
+    document.getElementById('modal').style.display = 'none'
     window.location = 'index.html'
 }
 
-const loadData = async () => {
-    getIdUrl()
-    console.log(noticiaID)
-    const noticia = await searchNoticia()
-    console.log(noticia)
+const loadData = async (id) => {
+    noticiaID = id
+    const noticia = await searchNoticia(noticiaID)
     loadForm(noticia)
 }
-
-loadData()
