@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notícias</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles_forms.css">
+        <script src="scripts/app.js" defer></script>
+        <script src="scripts/app_edit.js" defer></script>
+    </head>
+    <body>
+        <header class="header__top">
+            <div class="header__logo">
+                <img src="img/image.png" alt="Arnia"/>
+            </div>
+            <div class="header__title">
+                <div>Esportes</div>
+            </div>
+            <div>
+                <button class="header__btn"><a href="html_register.html">Nova Notícia</a></button>
+            </div>
+        </header>
+        <main id="main" class="main__cards">
+        </main>
+        <div id="modal" class="modal">
+            <div class="modal__container">
+                <form id="form_edit" class="form__post" action="">
+                    <label for="title">Título</label>
+                    <input id="title" name="title" type="text">
+                    <label for="autor">Autor(a)</label>
+                    <select name="autor" id="autor"></select>
+                    <label for="image">Imagem de destaque</label>
+                    <input id="image" name="image" type="text">
+                    <label for="text">Texto</label>
+                    <textarea id="text" name="text" cols="30" rows="10"></textarea>
+                    <button id="form__btn" class="form__btn" type="submit">SALVAR</button>
+                </form>
+            </div>
+        </div>
+        <footer></footer>
+    </body>
+</html>
