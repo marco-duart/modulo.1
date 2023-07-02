@@ -1,0 +1,51 @@
+.autor__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.autor__card {
+    width: 668px;
+    height: 84px;
+    border: 1px solid #939393;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.card__name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.card__btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn__delete button {
+    border: none;
+    width: 58px;
+    height: 26px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.btn__edit button {
+    border: none;
+    width: 58px;
+    height: 26px;
+    font-size: 14px;
+    color: white;
+    background-color: #6950A1;
+    border-radius: 5px;
+}
